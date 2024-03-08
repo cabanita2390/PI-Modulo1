@@ -42,7 +42,6 @@ div p {
 .container-imgs img {
     width: 100px;
     height: 100px;
-    transition: all 0.5s ease-in-out;
  }
 
  .imagen-container {
@@ -51,16 +50,47 @@ div p {
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen dentro del contenedor */
     margin: 10px 40px;
+    transition: transform 0.5s ease-in-out;
 }
 
 .img1 {
     background-image: url("/imgs/html.png"); /* Imagen por defecto */
 }
+
+#imagen1:hover {
+  background-image: url("/imgs/html-color.png"); /* Imagen al pasar el mouse */
+  filter: sepia(0.5);
+  transform: scale(1.2);
+}
+
 .img2 {
     background-image: url("/imgs/css-3.png"); /* Imagen por defecto */
 }
+#imagen2:hover {
+  background-image: url("/imgs/css-3-color.png"); /* Imagen al pasar el mouse */
+  filter: sepia(0.5);
+  transform: scale(1.2);
+}
+
 .img3 {
     background-image: url("/imgs/javascript.png"); /* Imagen por defecto */
 }   
+#imagen3:hover {
+  background-image: url("/imgs/javascript-1.svg"); /* Imagen al pasar el mouse */
+  filter: sepia(0.5);
+  transform: scale(1.2);
+}
 
+/*
+.container-imgs img {
+    width: 150px;
+    height: 150px;
+    transition: all 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
 
+.container-imgs img:hover {
+    filter: sepia(0.5);
+    transform: scale(1.5);
+}
+
+*/
