@@ -1,0 +1,75 @@
+/* Restablecimiento general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Elementos de la caja */
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Enlaces */
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Listas */
+  
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+  
+  /* Imágenes */
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Formularios */
+  
+  input,
+  textarea,
+  button,
+  select {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+  
+  /* Botones */
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Tablas */
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
