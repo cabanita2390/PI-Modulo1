@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: rgb(239, 239, 239);
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 4rem auto 1rem auto;
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+  }
+  
+  .container {
+    margin: 40px;
+    padding: 20px;
+    background-color: #5e5e5e;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+p.subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+div p {
+    margin-bottom: 1rem;
+} 
+
+.container-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.container-imgs img {
+    width: 100px;
+    height: 100px;
+ }
+
+ .imagen-container {
+    width: 100px;
+    height: 100px;
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+    margin: 10px 40px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img1 {
+    background-image: url("/imgs/html.png"); /* Imagen por defecto */
+}
+
+#imagen1:hover {
+  background-image: url("/imgs/html-color.png"); /* Imagen al pasar el mouse */
+  filter: sepia(0.5);
+  transform: scale(1.2);
+}
+
+.img2 {
+    background-image: url("/imgs/css-3.png"); /* Imagen por defecto */
+}
+#imagen2:hover {
+  background-image: url("/imgs/css-3-color.png"); /* Imagen al pasar el mouse */
+  filter: sepia(0.5);
+  transform: scale(1.2);
+}
+
+.img3 {
+    background-image: url("/imgs/javascript.png"); /* Imagen por defecto */
+}   
+#imagen3:hover {
+  background-image: url("/imgs/javascript-1.svg"); /* Imagen al pasar el mouse */
+  filter: sepia(0.5);
+  transform: scale(1.2);
+}
+
+/*
+.container-imgs img {
+    width: 150px;
+    height: 150px;
+    transition: all 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.container-imgs img:hover {
+    filter: sepia(0.5);
+    transform: scale(1.5);
+}
+
+*/
+
+.container {
+  margin: 40px;
+  text-align: center;
+}
+
+.input-block {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+.input2 {
+  min-height: 100px;
+}
+.input3 {
+  margin-bottom: 0;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-agregar {
+  background-color: #333; /* Gris oscuro */
+  color: white; /* Blanco */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto; /* Centra el botón horizontalmente */
+  transition: 0.3s; /* Animación para el efecto hover */
+}
+
+.btn-agregar:hover {
+  background-color: #6d6c6c; /* Gris un poco más claro al pasar el mouse */
+}
+
+/* Estilos para la sección de tarjetas */
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+/* Estilos para las tarjetas */
+.tarjeta {
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px; /* Espacio entre tarjetas */
+  overflow: hidden; /* Para que los bordes redondeados funcionen correctamente */
+  width: 24rem;
+  position: relative; /* Para posicionar el contenido */
+  transition: transform 0.3s; /* Transición al hacer hover */
+}
+.tarjeta img {
+  width: 100%; /* Imagen ocupa todo el ancho de la tarjeta */
+  height: auto; /* Altura automática para mantener la proporción */
+  border-radius: 18px;
+  display: block; /* Elimina espacios entre la imagen y los bordes de la tarjeta */
+  filter: grayscale(100%); /* Imagen en blanco y negro */
+  transition: filter 0.3s; /* Transición al hacer hover */
+}
+.tarjeta:hover {
+  transform: scale(1.05); /* Aumento de tamaño al hacer hover */
+}
+.tarjeta:hover img {
+  filter: grayscale(0%); /* Desactiva el blanco y negro al hacer hover */
+}
+.tarjeta .contenido {
+  padding: 20px; /* Espacio interno dentro de la tarjeta */
+  color: white; /* Color de texto */
+}
+.titulo-tarjeta {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.description-card {
+  font-weight:300;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* Estilos para las tarjetas */
+
+
+
+
+
+
+footer {
+  padding-bottom: 40px;
+}
+
+
+
+
+

@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Felipe Cabana</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
+  <link href="/styles/reset.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -30,13 +30,22 @@
 
   <p class="subtitle">Mis actividades</p>
   
-  <input type="text">
-  <input type="text">
-  <input type="text">
+  <div class="container container-input">
+    <input id="input-title" type="text" class="input-block" placeholder="Nombre de la actividad">
+    <input id="input-description" type="text" class="input-block input2" placeholder="Descripción de la actividad">
+    <input id="input-imagen-url" type="text" class="input-block input3" placeholder="Link de la imagen">
+  </div>
   
-  <button type="submit">Agregar</button>
+  <div class="container-button">
+    <button id="button-agregar" class="btn-agregar" type="submit">Agregar</button>
+  </div>
 
-  <script src="script.js"></script>
+  <section class="contenedor-tarjetas">
+   
+  </section>
+
+  <footer></footer>
+  <script src="/scripts/index.js"></script>
 </body>
 
 </html>
